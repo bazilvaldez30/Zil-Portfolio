@@ -1,11 +1,17 @@
 'use client'
 
 import { useRef } from 'react'
-import { projectsData } from '@/lib/data'
 import Image from 'next/image'
 import { motion, useScroll, useTransform } from 'framer-motion'
+import Link from 'next/link'
 
-export default function Project({ title, description, tags, imageUrl }) {
+export default function Project({
+  title,
+  description,
+  tags,
+  imageUrl,
+  websiteUrl,
+}) {
   const ref = useRef(null)
   const { scrollYProgress } = useScroll({
     target: ref,
@@ -59,6 +65,15 @@ export default function Project({ title, description, tags, imageUrl }) {
         group-even:right-[initial] group-even:-left-40'
         />
       </section>
+      <div className='flex justify-center'>
+        <Link
+          className=' hover:text-blue-600'
+          target='_blank'
+          href={websiteUrl}
+        >
+          {websiteUrl}
+        </Link>
+      </div>
     </motion.div>
   )
 }
