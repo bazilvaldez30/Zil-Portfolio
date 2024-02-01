@@ -48,7 +48,7 @@ export default function Contact() {
             toast.error(error)
             return
           }
-          formData.target.reset()
+
           toast.success('Email sent successfully!')
         }}
       >
