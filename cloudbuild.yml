@@ -3,7 +3,6 @@ substitutions:
   _PROJECT: zil-portfolio
   _APPLICATION: zil-portfolio
   _REGION: asia-southeast1
-  _RESEND_API_KEY: 'resend-api-key'
 
 steps:
   - name: 'gcr.io/cloud-builders/docker'
