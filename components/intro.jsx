@@ -65,10 +65,12 @@ export default function Intro() {
         <span className='font-bold'>
           Hello, I&apos;m John Bazil Milan Valdez.
         </span>{' '}
-        I&apos;m a <span className='font-bold'>full-stack developer</span> with{' '}
-        <span className='font-bold'>years</span> of experience. I enjoy building{' '}
-        <span className='italic'>sites & apps</span>. My focus is{' '}
-        <span className='underline'>React (Next.js)</span>.
+        I&apos;m a{' '}
+        <span className='font-bold'>Frontend / Full-Stack Developer</span> with{' '}
+        <span className='font-bold'>4+ years</span> of experience building
+        responsive and scalable{' '}
+        <span className='italic'>web applications & desktop apps</span>. My
+        focus is <span className='underline'>React & Next.js</span>.
       </motion.h1>
 
       <motion.div

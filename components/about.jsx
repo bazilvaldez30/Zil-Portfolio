@@ -19,31 +19,28 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className='mb-3'>
-        After graduating with a degree in{' '}
-        <span className='font-medium'>BS in Information Technology</span>, I
-        worked as an IT/Technical Support for three years. Subsequently, fueled
-        by my passion for programming, I decided to transition my career. To
-        refresh my skills and stay updated with the current tech trends, I
-        enrolled in a coding bootcamp where I delved into{' '}
-        <span className='font-medium'>full-stack web development</span>.{' '}
-        <span className='italic'>My favorite aspect of programming</span> is the
-        problem-solving challenge. I love the feeling of finally figuring out a
-        solution to a problem. I am particularly enthusiastic about
-        <span className='underline'></span> the constant learning process in the
-        dynamic field of technology. My core stack includes{' '}
+        I&apos;m a{' '}
+        <span className='font-medium'>Frontend / Full-Stack Developer</span>{' '}
+        with experience building responsive and scalable web applications using{' '}
+        <span className='font-medium'>React, Next.js</span>, and modern frontend
+        technologies. I&apos;m skilled in{' '}
         <span className='font-medium'>
-          React, Next.js, Node.js, and MongoDB
+          API integration, UI/UX implementation
         </span>
-        . Additionally, I am also familiar with TypeScript. My eagerness to
-        explore new technologies keeps me motivated. Currently, I am actively
-        seeking a <span className='font-medium'>full-time position</span> as a
-        software developer.
+        , and developing maintainable applications focused on performance and
+        usability. My core stack includes{' '}
+        <span className='font-medium'>
+          React.js, Next.js, TypeScript, Node.js, and Tailwind CSS
+        </span>
+        , and I also work with tools like{' '}
+        <span className='font-medium'>Zustand, React Query, and Docker</span>.
       </p>
 
       <p>
         <span className='italic'>When I&apos;m not coding</span>, I enjoy
-        playing video games, watching movies, and playing with my dog/cats. I
-        also enjoy <span className='font-medium'>learning new things</span>.
+        playing video games, watching movies, and spending time with my pets. I
+        also enjoy <span className='font-medium'>learning new things</span> and
+        staying up to date with the latest in tech.
       </p>
     </motion.section>
   )
